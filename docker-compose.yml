@@ -1,0 +1,18 @@
+#version: '3.9'
+#
+#services:
+#  web:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    restart: always
+#    command: sh -c "/start.sh"
+#    container_name: fast_web_01
+#    env_file:
+#      - .env
+#    depends_on:
+#      - db
+#  db:
+#    image: mongo:latest
+#    restart: always
+#    container_name: mongo_db_01
